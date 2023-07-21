@@ -3,6 +3,7 @@
     flex-direction: row;
     overflow: scroll;
     width: 375px;
+    border-bottom: 1px solid #ccc;
   
     &::-webkit-scrollbar {
       display: none;
@@ -14,6 +15,7 @@
       padding: 5px;
       margin: 5px;
       border-radius: 10px;
+      margin-bottom: 10px;
     }
   }
   .main {
