@@ -19,11 +19,13 @@ const Main = () => {
           Authorization: `Bearer ${apiKey}`,
         },
       });
+      console.log(response.data); // Log the response to the console
       setNewsData(response.data.articles);
     } catch (error) {
       console.error(error);
     }
   };
+  
 
   return (
     <div className='main'>
