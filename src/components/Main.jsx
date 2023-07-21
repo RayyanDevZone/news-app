@@ -4,7 +4,11 @@ import './Main.scss';
 
 const Main = () => {
   const apiKey = '98d3226fcd0e4709ae2f19c3f5376a85';
-  const url = "https://newsapi.org/v2/top-headlines?country=in";
+//   const url = "https://newsapi.org/v2/top-headlines?country=in";
+  // Main.jsx
+
+const url = "https://https://vercel.com/rayyandevzone/news-app/api/NewsProxy";
+
 
   const [newsData, setNewsData] = useState([]);
 
